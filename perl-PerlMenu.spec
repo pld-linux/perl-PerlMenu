@@ -5,8 +5,7 @@ Summary(pl):	PerlMenu - modu³ Perla z menu opartymi na curses i szablonami dla d
 Name:		perl-PerlMenu
 Version:	4.0
 Release:	2
-# GPLv2 is attached and Artistic
-License:	GPL v2+ or Artistic
+License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/S/SK/SKUNZ/%{pdir}.v%{version}.tar.gz
 # Source0-md5:	b931859ed581970f3fb05420316b39d3
