@@ -11,7 +11,7 @@ Source0:	http://www.cpan.org/modules/by-authors/id/S/SK/SKUNZ/%{pdir}.v%{version
 # Source0-md5:	b931859ed581970f3fb05420316b39d3
 Patch0:		%{name}-tput.patch
 URL:		http://www.cc.iastate.edu/perlmenu/
-BuildRequires:	perl-devel >= 5.6
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
