@@ -1,0 +1,42 @@
+--- perlmenu.v4.0/perlmenu.pm.wiget	Wed Dec 11 12:51:58 2002
++++ perlmenu.v4.0/perlmenu.pm	Wed Dec 11 12:52:29 2002
+@@ -379,12 +379,12 @@
+ 
+ # Method 1 (getcap)
+ # Uncomment if you have "getcap"
+-    $ku = &getcap('ku');	# Cursor-up
+-    $kd = &getcap('kd');	# Cursor-down
+-    $kr = &getcap('kr');	# Cursor-right
+-    $kl = &getcap('kl');	# Cursor-left
+-    $cr = &getcap('cr');	# Carriage-return
+-    $nl = &getcap('nl');	# New-line
++#    $ku = &getcap('ku');	# Cursor-up
++#    $kd = &getcap('kd');	# Cursor-down
++#    $kr = &getcap('kr');	# Cursor-right
++#    $kl = &getcap('kl');	# Cursor-left
++#    $cr = &getcap('cr');	# Carriage-return
++#    $nl = &getcap('nl');	# New-line
+ 
+ # Method 2 (tigetstr)
+ # Uncomment if you have tigetstr (Solaris) instead of "getcap"
+@@ -397,14 +397,14 @@
+ 
+ # Method 3 (tput)
+ # Uncomment if you have terminfo (and tput) instead of "getcap"
+-#    $ku = `tput kcuu1`;	# Cursor-up
+-#    $kd = `tput kcud1`;	# Cursor-down
+-#    $kr = `tput kcuf1`;	# Cursor-right
+-#    $kl = `tput kcub1`;	# Cursor-left
+-#    $cr = `tput kent`;		# Carriage-return
++    $ku = `tput kcuu1`;	# Cursor-up
++    $kd = `tput kcud1`;	# Cursor-down
++    $kr = `tput kcuf1`;	# Cursor-right
++    $kl = `tput kcub1`;	# Cursor-left
++    $cr = `tput kent`;		# Carriage-return
+ #				# HP-UX 9.05 users: try $cr = `tput cr` if
+ #				#                   "tput kent" gives errors
+-#    $nl = `tput nel`;		# New-line
++    $nl = `tput nel`;		# New-line
+ 
+     $ansi_ku = "\033[A";	# Ansi cursor-up (for DEC xterm)
+     $ansi_kd = "\033[B";	# Ansi cursor-down (for DEC xterm)
