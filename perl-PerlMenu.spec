@@ -1,5 +1,5 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	perlmenu
+%define		pdir	perlmenu
 Summary:	PerlMenu - Perl library module for curses-based menus & data-entry templates
 Summary(pl):	PerlMenu - modu³ Perla z menu opartymi na curses i szablonami dla danych
 Name:		perl-PerlMenu
