@@ -33,7 +33,7 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{perl_vendorlib},%{_examplesdir}/%{name}-%{version}}
 
 install -m644 perlmenu.pm menuutil.pl $RPM_BUILD_ROOT%{perl_vendorlib}
-for item in demo* ez* paint* template* ; do 
+for item in demo* ez* paint* template* ; do
 	sed 's=#!/usr/local/bin/perl5=!/usr/bin/perl=' <$item \
 	>$RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}/$item
 done
