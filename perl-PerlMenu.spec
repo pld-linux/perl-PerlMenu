@@ -7,7 +7,7 @@ Version:	4.0
 Release:	1
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-authors/id/S/SK/SKUNZ/%{pdir}.v%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-authors/id/S/SK/SKUNZ/%{pdir}.v%{version}.tar.gz
 Patch0:		%{name}-tput.patch
 URL:		http://www.cc.iastate.edu/perlmenu/
 BuildRequires:	perl >= 5.6
