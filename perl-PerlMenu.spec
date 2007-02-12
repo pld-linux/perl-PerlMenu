@@ -1,7 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	perlmenu
 Summary:	PerlMenu - Perl library module for curses-based menus & data-entry templates
-Summary(pl):	PerlMenu - modu≥ Perla z menu opartymi na curses i szablonami dla danych
+Summary(pl.UTF-8):   PerlMenu - modu≈Ç Perla z menu opartymi na curses i szablonami dla danych
 Name:		perl-PerlMenu
 Version:	4.0
 Release:	2
@@ -20,8 +20,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 PerlMenu - Perl library module for curses-based menus & data-entry
 templates.
 
-%description -l pl
-PerlMenu - modu≥ biblioteki Perla z menu opartymi na curses oraz
+%description -l pl.UTF-8
+PerlMenu - modu≈Ç biblioteki Perla z menu opartymi na curses oraz
 szablonami formularzy do wpisywania danych.
 
 %prep
