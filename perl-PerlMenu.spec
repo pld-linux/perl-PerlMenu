@@ -4,7 +4,7 @@ Summary:	PerlMenu - Perl library module for curses-based menus & data-entry temp
 Summary(pl.UTF-8):	PerlMenu - moduł Perla z menu opartymi na curses i szablonami dla danych
 Name:		perl-PerlMenu
 Version:	4.0
-Release:	2
+Release:	3
 License:	LGPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/S/SK/SKUNZ/%{pdir}.v%{version}.tar.gz
